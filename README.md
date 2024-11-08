@@ -68,8 +68,7 @@ This saves the model as irisTest.joblib in the project root.
 ### Running the Application
 1. Start the Backend (FastAPI)
 Start the FastAPI server to handle prediction requests:
-```bash
-Copy code
+```python
 uvicorn backend:app --reload
 ```
 The API will be available at http://localhost:8000.
@@ -77,8 +76,7 @@ The API will be available at http://localhost:8000.
 2. Start the Frontend (Streamlit)
 Run the Streamlit application to launch the prediction dashboard:
 
-```bash
-Copy code
+```puyhon
 streamlit run frontend.py
 ```
 The Streamlit dashboard will be available at http://localhost:8501.
