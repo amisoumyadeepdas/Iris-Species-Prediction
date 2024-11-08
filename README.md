@@ -102,17 +102,28 @@ frontend.py: Streamlit dashboard for user interactions and visualizations.
 requirements.txt: List of dependencies.
 irisTest.joblib: Saved model file.
 
-### Screenshots
-Dashboard Home:
-Prediction Result:
-Analytics Comparison:
+---
+
+## Screenshots
+
+### Dashboard Home:
+
+![Home Page](https://github.com/user-attachments/assets/3f0a8dd6-2a0a-450a-8e29-069a23647cc4)
+
+### Prediction Result:
+
+![Profile Page](https://github.com/user-attachments/assets/6b187543-ef1e-4d29-9d0f-3833a2e3e536)
+
+
+### Analytics Comparison:
+
+![Create Post](https://github.com/user-attachments/assets/68fda79c-d46a-4b85-9217-38715348b9d4)
+
+
+---
 
 ### Contributing
 Contributions are welcome! Please submit issues or pull requests for any enhancements or fixes.
 
-
-
-
-
-
+---
 
