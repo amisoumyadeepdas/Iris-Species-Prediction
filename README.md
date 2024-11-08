@@ -41,20 +41,17 @@ This project is a full-stack application designed to predict Iris species based 
 Install required packages with:
 ```bash
 pip install -r requirements.txt
+```
 
-
-Clone the Repository
-To get started, clone this repository and navigate to the project folder:
-
-bash
-Copy code
+### Clone the Repository
+```bash
 git clone <repository-url>
 cd iris-species-prediction
-Model Training and Saving
+```
+### Model Training and Saving
 To train and save the RandomForest model:
 
-python
-Copy code
+```python
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.datasets import load_iris
 import joblib
@@ -66,33 +63,35 @@ model = RandomForestClassifier()
 model.fit(X, y)
 joblib.dump(model, 'irisTest.joblib')
 This saves the model as irisTest.joblib in the project root.
+```
 
-Running the Application
+### Running the Application
 1. Start the Backend (FastAPI)
 Start the FastAPI server to handle prediction requests:
-
-bash
+```bash
 Copy code
 uvicorn backend:app --reload
+```
 The API will be available at http://localhost:8000.
 
 2. Start the Frontend (Streamlit)
 Run the Streamlit application to launch the prediction dashboard:
 
-bash
+```bash
 Copy code
 streamlit run frontend.py
+```
 The Streamlit dashboard will be available at http://localhost:8501.
 
-API Testing
+### API Testing
 Visit http://localhost:8000/docs to test the API endpoints using Swagger UI.
 
 Example request payload for /predict/ endpoint:
 
-json
-Copy code
+```json
 {"features": [5.1, 3.5, 1.4, 0.2]}
-Usage
+```
+### Usage
 Enter Flower Measurements: Adjust the sidebar sliders to set values for sepal length, sepal width, petal length, and petal width.
 Get Prediction: Click "Predict Species" to see the Iris species prediction.
 View Analytics: Explore charts comparing input measurements with average values for each Iris species.
@@ -102,25 +101,14 @@ backend.py: FastAPI server code for handling prediction requests.
 frontend.py: Streamlit dashboard for user interactions and visualizations.
 requirements.txt: List of dependencies.
 irisTest.joblib: Saved model file.
-Screenshots
+
+### Screenshots
 Dashboard Home:
 Prediction Result:
 Analytics Comparison:
-Contributing
+
+### Contributing
 Contributions are welcome! Please submit issues or pull requests for any enhancements or fixes.
-
-License
-This project is licensed under the MIT License.
-
-This README provides setup instructions, usage details, and an overview of the project's features and structure, making it easy to get started and explore the Iris Species Prediction Dashboard.
-
-vbnet
-Copy code
-
-Replace `<repository-url>` with your actual GitHub repository URL. The screenshots' paths (`screenshots/dashboard_home.png`, etc.) should also be replaced with the actual paths in your project if they differ.
-
-
-
 
 
 
