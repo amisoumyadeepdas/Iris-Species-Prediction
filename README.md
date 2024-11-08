@@ -1,4 +1,4 @@
-# Iris Species Prediction Dashboard 🌸
+# Iris Species Prediction Project 🌸
 
 This project is a full-stack application designed to predict Iris species based on flower measurements. It uses a trained RandomForest model to provide real-time predictions through a FastAPI backend and a Streamlit front-end dashboard, where users can interact with the model and visualize predictions and analytics.
 
