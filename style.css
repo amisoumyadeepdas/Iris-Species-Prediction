@@ -1,0 +1,31 @@
+/* style.css */
+
+/* Background image for the app */
+.stApp {
+    background: url("data:image/jpg;base64,{bg_image_base64}") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Semi-transparent overlay panel */
+.overlay {
+    background-color: rgba(0, 0, 0, 1);  /* Dark overlay */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* Rounded corners for the Plotly chart container */
+.stPlotlyChart {
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid black;  /* Narrow black border */
+}
+
+.stPlotlyChart div {
+    border-radius: 15px;
+    overflow: hidden;
+}
