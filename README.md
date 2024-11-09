@@ -38,7 +38,7 @@ This project is a full-stack application designed to predict Iris species based 
 
 ### Install Dependencies
 
-Install required packages with:
+- Install required packages with:
 ```bash
 pip install -r requirements.txt
 ```
