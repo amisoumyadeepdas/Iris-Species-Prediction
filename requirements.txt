@@ -1,0 +1,8 @@
+fastapi       # For creating the backend API
+uvicorn          # ASGI server for running FastAPI
+requests         # For making HTTP requests (e.g., in Streamlit to call FastAPI)
+streamlit        # Main library for creating the web app
+scikit-learn      # Machine learning library (used for RandomForest, etc.)
+pandas            # For data manipulation and handling data frames
+numpy             # Fundamental library for array processing
+plotly           # For interactive visualizations in Streamlit
