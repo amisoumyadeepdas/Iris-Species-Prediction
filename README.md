@@ -106,12 +106,12 @@ irisTest.joblib: Saved model file.
 
 ### Dashboard Home:
 
-![Home Page](https://github.com/user-attachments/assets/503820df-e9f5-4101-ba4a-f46e75161289)
+![Home Page](https://github.com/user-attachments/assets/98d70f0a-a8b5-4c7d-80f4-324f448cd58b)
 
 
 ### Prediction Result:
 
-![Profile Page](https://github.com/user-attachments/assets/6b187543-ef1e-4d29-9d0f-3833a2e3e536)
+![Profile Page](https://github.com/user-attachments/assets/0e3822b6-95b9-4e73-a6cd-758a79d80b92)
 
 
 ### Analytics Comparison:
