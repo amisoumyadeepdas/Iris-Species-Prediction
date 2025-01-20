@@ -106,7 +106,7 @@ irisTest.joblib: Saved model file.
 
 ### Dashboard Home:
 
-![Home Page](https://github.com/user-attachments/assets/e97209e7-f7e9-41b7-8387-a51ccd34c1c0)
+![Home Page](https://github.com/user-attachments/assets/503820df-e9f5-4101-ba4a-f46e75161289)
 
 
 ### Prediction Result:
@@ -121,7 +121,7 @@ irisTest.joblib: Saved model file.
 
 ### Feedback Section:
 
-![Create Post](https://github.com/user-attachments/assets/68fda79c-d46a-4b85-9217-38715348b9d4)
+![Create Post](https://github.com/user-attachments/assets/0e22a645-4485-4c3f-a4a5-9d04c9003a26)
 
 
 ---
